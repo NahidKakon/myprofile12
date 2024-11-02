@@ -5,8 +5,9 @@ import { socialLinks } from '../utils/dataBase';
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
 import Button from '../components/Button';
 import Image from 'next/image';
-// import Name from '../components/Name';
+import Name from '../components/Name';
 import Image_Component from '../components/Image Component';
+
 
 function HeroSection() {
   const renderSocialIcons = () =>
@@ -40,22 +41,26 @@ function HeroSection() {
           filter={false}
           words="Hi, I am"
         />
-{/*         <Name/> */}
+<br/>
+
+        <Name/>
+      
+      <br/>
         {/* <TextGenerateEffect
-          className="text-base font-semibold text-orange-400 md:text-x2"
+          className="text-base font-semibold text-orange-400 md:text-x7"
           duration={2}
           filter={false}
           words="Nahid Shakib"
           
         /> */}
         <TextGenerateEffect
-          className="text-3xl font-extrabold md:text-5xl"
+          className="text-3xl font-extrabold md:text-4xl"
           duration={2}
           filter={false}
           words="UI & UX Designer"
         />
         <TextGenerateEffect
-          className="ml-[1.0rem] md:ml-[1.5rem] mb-4 text-3xl font-extrabold md:text-5xl"
+          className="ml-[1.0rem] md:ml-[1.5rem] mb-4 text-3xl font-extrabold md:text-4xl"
           duration={2}
           filter={false}
           words="Software developer | Front-end | Back-end"
