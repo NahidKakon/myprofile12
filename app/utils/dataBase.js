@@ -3,7 +3,7 @@
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export const navLinks = [
-   {id: 'name.svg' }, 
+
   { id: 'home', label: 'Home' },
   { id: 'about-Me', label: 'About Me' },
   { id: 'services', label: 'Services' },
@@ -102,13 +102,13 @@ export const services = [
   },
 ];
 
-export const testimonials = [
-  {
-    name: 'John Doe',
-    review:
-      'Working with you was an absolute pleasure. Your attention to detail and creativity made the process smooth and enjoyable. I am thrilled with the final product!',
-    imgSrc: '/profile/profile-1.jpg ',
-  },
+// export const testimonials = [
+//   {
+//     name: 'John Doe',
+//     review:
+//       'Working with you was an absolute pleasure. Your attention to detail and creativity made the process smooth and enjoyable. I am thrilled with the final product!',
+//     imgSrc: '/profile/profile-1.jpg ',
+//   },
 //   {
 //     name: 'Jane Smith',
 //     review:
