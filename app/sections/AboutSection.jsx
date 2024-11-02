@@ -5,12 +5,12 @@ import { skills } from '../utils/dataBase';
 import Progress from '../components/Progress';
 // import { Card } from '@/components/ui/card-hover-effect';
 // import { CardContainer } from '@/components/ui/3d-card';
-// import { AnimatePresence, motion } from "framer-motion";
+
 import Link from "next/link";
 import { useState } from "react";
 // import { FullScreen } from '@tsparticles/engine';
 import ImageZoom from '../components/ImageZoom';
-// import name from '../components/Name';
+
 
 
 function AboutSection() {
