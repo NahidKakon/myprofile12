@@ -7,7 +7,7 @@ import TestimonialsSection from './sections/TestimonialsSection';
 import BackgroundBeamsWithCollisionDemo from '@/components/example/background-beams-with-collision-demo';
 import ThreeDCardDemo from '@/components/example/3d-card-demo';
 import DownloadButton from './components/DownloadButton';
-import Name from './components/Name';
+
 import Footer from './components/Footer';
 
 export default function Home() {
